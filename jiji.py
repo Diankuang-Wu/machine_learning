@@ -5,4 +5,4 @@ def xkxkx(a,b):
     f=a**b
     print(c,d,e,f)
 
-xkxkx(1,2)vv
+xkxkx(1,2)
