@@ -1,0 +1,9 @@
+<mujoco model="robot1">
+    <option timestep="0.005" />
+    <worldbody>
+        <body name="robot" pos="0 0 1.2">
+            <joint axis="1 0 0" damping="0.1" name="robot:slide0" pos="0 0 0" type="slide"/>
+            <geom mass="1.0" pos="0 0 0" rgba="1 0 0 1" size="0.15" type="sphere"/>
+        </body>
+    </worldbody>
+</mujoco>
